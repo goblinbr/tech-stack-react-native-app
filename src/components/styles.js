@@ -71,6 +71,10 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  listItemTitleText: {
+    fontSize: 18,
+    paddingLeft: 15
   }
 };
 
