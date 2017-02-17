@@ -1,4 +1,6 @@
+import * as ActionsTypes from './ActionsTypes';
+
 export const selectLibrary = (libraryId) => ({
-  type: 'select_library',
+  type: ActionsTypes.SELECT_LIBRARY,
   payload: libraryId
 });
